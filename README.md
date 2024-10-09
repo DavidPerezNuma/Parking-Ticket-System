@@ -8,10 +8,12 @@ This project simulates a parking ticket system in which a police officer issues 
 
 ## 📂 Project Structure
 
-The project is organized into two main directories: `src` for the main application code and `test` for automated test cases.
+The project is organized into main directories: `src` for the main application code, `assets` for images, and `test` for automated test cases.
 
 ```plaintext
 multas/
+├── assets/
+│   └── UML diagram.png             # 🖼️ UML diagram showing class structure
 ├── src/
 │   ├── App.java                    # 📋 Main application file for manual testing
 │   └── Model/                      # 📁 Folder containing main program classes
@@ -26,6 +28,8 @@ multas/
 ```
 
 ## 📑 Explanation of Each File
+
+- **assets/UML diagram.png**: UML diagram illustrating the relationships between classes in the project.
 
 - **App.java**: The main application file that allows manual verification of whether a parked car has exceeded its paid parking time. When run, users input values in the console, and a ticket is issued if necessary.
 
